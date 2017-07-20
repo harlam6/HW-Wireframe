@@ -5,6 +5,7 @@
 }
 
 body {width: 960px;
+    display: inline-block;
 }
 
 .noodles {
@@ -31,14 +32,16 @@ section {width: 495px;
   padding: 10px;
   margin-bottom: 10px;
   color: #333;
-  background: #ebebeb;}
+  background: #ebebeb;
+  display: inline-block;}
 
 article {
   margin: 10px;
   padding: 10px;
   margin-bottom: 20px;
   color: #333;
-  background: ##777;}
+  background: ##777;
+  }
 
   h3 { margin: 5px;
   padding: 5px;
@@ -53,18 +56,20 @@ article {
   background: #ebebeb;}
 
 #mon
- { 
-  margin: ;
-  width: 400px;
-  float: left;
+ {
+  width: 420px;
+  float: right;
+  display: inline-block;
+  text-align: center;
 }
 
 aside {
-  float: left;
-  margin: 10px;
+  float: right;
+  margin: 30px;
   padding: 40px;
   color: #333;
   background: #ebebeb;
+  text-align: center;
 }
 
 footer {
@@ -72,4 +77,3 @@ footer {
   clear: both;
   background: #ccc;
 }
-
